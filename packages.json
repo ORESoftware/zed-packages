@@ -5,6 +5,10 @@
     "next-loggers": {
       "repository": "https://github.com/ores-otel/ores.otel.log",
       "note": "Canonical development is the polyglot ores.otel.log repository; a repository name containing dots is not a valid package slug."
+    },
+    "next-loggers-rust": {
+      "repository": "https://github.com/ores-otel/ores.otel.log",
+      "note": "Rust target published by the canonical polyglot next-loggers package authority."
     }
   }
 }
