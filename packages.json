@@ -1,0 +1,10 @@
+{
+  "schema": "zed.org-package-index/v1",
+  "description": "Where each oresoftware/* Zed package is published. Read by zed-cli over raw.githubusercontent.com when the registry origin is unavailable, so a package whose repository is not named after it stays resolvable from github.com alone. An entry only locates a repository: the committed .zpkg.toml there must still self-claim the package, so an incorrect entry cannot hijack a name.",
+  "packages": {
+    "next-loggers": {
+      "repository": "https://github.com/ores-otel/ores.otel.log",
+      "note": "Canonical development is the polyglot ores.otel.log repository; a repository name containing dots is not a valid package slug."
+    }
+  }
+}
